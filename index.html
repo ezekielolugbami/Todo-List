@@ -1,35 +1,28 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Todo List</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/assets/css/todos.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/todo.css">
+</head>
+<body>
+    
 
-        <h1>Todo List</h1>
+    <div id="container">
+        <h1>To-Do List</h1>
+        <input type="text" placeholder="Add New Todo">
 
         <ul>
-            <li>
-                "new" - Add a todo
-            </li>
-
-            <li>
-                "list" - View All todos
-            </li>
-            <li>
-                "delete" - Remove a Specific todo
-            </li>
-            <li>
-                "quit" - Quit App
-            </li>
+            <li><span>X</span> Walk my dog</li>
+            <li><span>X</span> Deisgn UI for my app</li>
+            <li><span>X</span> Get groceries</li>
         </ul>
 
-        
-        
-        <script src="/assets/js/todos.js"></script>
-    </body>
+    </div>
+
+    <script src="./assets/js/lib/jQuery-3.4.1.js"></script>
+    <script src="./assets/js/todo.js"></script>
+</body>
 </html>
